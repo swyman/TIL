@@ -1,1 +1,18 @@
-hello world
+HTML5 is an update to the HTML specification (5th revision), published by W3C.
+
+Semantic Elements: HTML elements that have plain-english meanings, in addition to what they mean to the browser. For example, a <div> doesn't really mean anything to a lay-person, but <article> certainly does.
+- <section>, <article>
+- <header>, <footer>
+- <nav>
+- <figure>, <time>, <details>, <main>
+
+- <section> is a thematic grouping of content, typically with a heading
+- <article> is independent, self-contained content 
+*** No reason you couldn't have <articles> in a <section> or <sections> in an article, or <sections> within <sections>, etc etc.
+
+- <header> specifies a header for a document or section; should be used as a container for introductory content.
+- <footer> specifies a footer, should have information about its containing element... authorship, copyright, contact, etc etc
+
+- <nav> defines a set of navigation links
+
+ALL THIS SHIT IS JUST <DIV>S BY ANOTHER NAME. Apparently the point is to make it easier for search engines to properly categorize web content. Now, instead of having to parse IDs or classes, there is a standardized set of semantic elements.
